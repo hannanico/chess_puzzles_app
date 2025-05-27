@@ -1,8 +1,8 @@
-export default function NavBar() {
+export default function SideNavbar() {
     return  <div className="w-full lg:w-64 bg-gray-800 text-white p-4">
       <div className="flex flex-row lg:flex-col items-center lg:items-start justify-between lg:justify-start gap-4">
         <div className="flex items-center gap-2 ">
-        <img src="public\favicon.ico" alt="logo" />
+        <img src="favicon.ico" alt="logo" />
         <h1 className="text-xl font-bold">Chess App</h1>
         </div>
         <nav>

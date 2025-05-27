@@ -10,7 +10,6 @@ export default function RootRouter() {
         <Route path="/" element={<Home/>} />
         <Route path="/posts/*" element={<PostRouter/>} />
         <Route path="/puzzles/*" element={<PuzzleRouter/>} />
-
         <Route path="*" element={<NotFound404 />} />
     </Routes>
  </BrowserRouter>
